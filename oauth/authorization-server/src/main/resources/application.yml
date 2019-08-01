@@ -1,0 +1,8 @@
+logging:
+  level:
+    org.springframework.security: TRACE
+    org.springframework: DEBUG
+
+# to avoid conflicting with another application
+server:
+  port : 8081
